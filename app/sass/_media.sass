@@ -1,0 +1,170 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+
+// ≥1200px
++media-breakpoint-down(lg)
+	h1  
+		font-size: 45px
+	.banner-left
+		height: 652px	
+		.banner
+			h1 
+				font-size: 40px
+				margin: 10px 0
+			.video-bg
+				right: -335px
+				height: 640px
+				background-size: contain
+			.time-calc
+				margin: 40px 0 60px
+	.video-wrap
+		height: 650px
+// ≥992px
++media-breakpoint-down(md)
+	#small-size
+		width: 100%
+		max-width: 100%
+		.banner-right
+			padding: 0
+	.block9
+		.container
+			min-height: 590px
+		.dir-bg-img
+			img
+				height: 350px
+	.top_header li a 
+		font-size: 20px
+	h2
+		font-size: 30px
+	h3 
+		font-size: 20px
+	h1  
+		font-size: 35px
+	.block3
+		padding-bottom: 15px
+	.block10
+		padding-bottom: 0
+	.banner-left
+		height: auto
+		transform: translate(0)
+		.banner 
+			margin: auto
+			padding: 20px 0
+		.video-bg
+			display: none
+		.button
+			font-size: 20px
+		.time-calc
+			margin: 50px 0
+		h1
+			margin-top: 30px
+	.video-wrap
+		height: auto
+		.phone-video
+			display: none
+		.play
+			top: 0
+			bottom: 0
+			left: 0
+			right: 0
+		video
+			left: 0
+			width: 100%
+			position: relative
+			height: 100%
+			min-height: 0
+	.banner-left.small
+		transform: translate(0)
+	.video-wrap.small
+		transform: translate(0)
+// ≥768px
++media-breakpoint-down(sm)
+	
+	.block10
+	  .col-lg-4.col-md-3.col-sm-6.col-xs-12
+	  	display: none
+	.block9
+		.container
+			min-height: 390px
+		.dir-bg-img
+			img
+				height: 250px
+	.top_header li a 
+		font-size: 14px
+	h2
+		font-size: 22px
+	h3 
+		font-size: 20px
+	.block2
+		padding-bottom: 20px
+		.col-lg-3.col-md-3.col-sm-6.col-xs-12
+        	margin-top: 20px
+	h2 
+		padding: 15px 0!important
+	.block3
+		padding-bottom: 15px
+	.block6
+		.head_ik
+			font-size: 14px
+
+// ≥576px
++media-breakpoint-down(xs)
+	.top_header li a 
+			padding: 0 1px
+			font-size: 9px
+	.block9
+		.container
+			min-height: 350px
+		.dir-bg-img
+			img
+				height: 150px
+	.block2
+		padding-bottom: 20px
+		.num
+			float: left
+			line-height: 1
+		p 
+			margin-left: 40px
+		.col-lg-3.col-md-3.col-sm-6.col-xs-12
+			margin-top: 10px
+		
+	h2 
+		padding: 15px 0!important
+	.block3
+		padding-bottom: 10px
+		.box
+			img
+				float: left
+				width: 80px
+			.head_ik
+				padding: 0
+				padding-left: 100px
+			p
+				text-align: left
+				padding-left: 100px
+	.block5
+		.sert-logo
+			display: none
+	.block7
+		.head_ik
+			font-size: 16px
+		.text_ik
+			font-size: 12px
+	.map
+		padding-top: 50px
+
+/*==========  Mobile First  ==========*/
+
+// ≤576px
++media-breakpoint-up(sm)
+
+// ≤768px
++media-breakpoint-up(md)
+
+// ≤992px
++media-breakpoint-up(lg)
+
+// ≤1200px
++media-breakpoint-up(xl)
